@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<title>swot</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body>
+<!--Esto es para el navbar de la parte de arriba-->
+	<header>
+		<nav>
+		    <div class="nav-wrapper #1a237e indigo darken-4">
+		     	<a href="index.html" class="brand-logo">Home</a>
+		     	<!--<a href="#!" class="brand-logo black-text">Inicio</a>-->
+		     	<!--Iconos https://material.io/icons/-->
+		      	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      	<ul class="right hide-on-med-and-down">
+		      		<li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+			        <li><a href="personal.html"><i class="material-icons left">person</i>Personal</a></li>
+			        <li><a href="resume.html"><i class="material-icons left">business</i>Resume</a></li>
+			        <li><a href="swot.html"><i class="material-icons left">person_outline</i>SWOT</a></li>
+			    </ul>
+			    <ul class="side-nav" id="mobile-demo">
+			    	<li><a href="index.html">Home</a></li>
+			        <li><a href="personal.html">Personal</a></li>
+			        <li><a href="resume.html">Resume</a></li>
+			        <li><a href="swot.html">SWOT</a></li>
+			     </ul>
+		    </div>
+		</nav>
+	</header>
+
+<!--Cabecera-->
+    <div class="row">
+        <div class="col s12 center">
+            <div class="card-content black-text">
+              <span class="card-title"><h2>swot</h2></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+    	<div class="col s6"><span class="flow-text"><h3>Internal Factors</h3></span></div>
+    	<div class="col s6"><span class="flow-text"><h3>External Factors</h3></span></div>
+    	<div class="col s6"><span class="flow-text"><h4>Weaknesses</h4></span></div>
+    	<div class="col s6"><span class="flow-text"><h4>Threats</h4></span></div>
+    	<div class="col s6"><span class="flow-text"><h5>-I do not have experience.<br>
+														-Relaxed.<br>
+														-I have to impruve english level.</h5></span></div>
+		<div class="col s6"><span class="flow-text"><h5>-A lot of competency in the sector.</h5></span></div>
+    </div>
+    <div class="row">
+    	<div class="col s6"><span class="flow-text"><h4>Strengths</h4></span></div>
+    	<div class="col s6"><span class="flow-text"><h4>Opportinities</h4></span></div>
+    	<div class="col s6"><span class="flow-text"><h5>-Patience.<br>
+														-I have passion to create and learn.<br>
+														-Imagine.</h5></span></div>
+		<div class="col s6"><span class="flow-text"><h5>-I am very obstinate and I can lear thing very fast if I proposed it.<br>
+														-Flexible.<br>
+														-Adaptation.</h5></span></div>
+    </div>
+
+	<footer class="page-footer #1a237e indigo darken-4">
+        <div class="footer-copyright">
+           	<div class="container">
+            	© 2018 Copyright 
+            </div>
+        </div>
+    </footer>
+
+
+<!------------------------>
+	<script src="js/jQuery.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".button-collapse").sideNav();
+		});
+	</script>
+
+</body>
+</html>

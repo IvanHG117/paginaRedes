@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body>
+<!--Esto es para el navbar de la parte de arriba-->
+	<header>
+		<nav>
+		    <div class="nav-wrapper #03a9f4 light-blue">
+		     	<a href="index.html" class="brand-logo">Home</a>
+		     	<!--<a href="#!" class="brand-logo black-text">Inicio</a>-->
+		     	<!--Iconos https://material.io/icons/-->
+		      	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      	<ul class="right hide-on-med-and-down">
+		      		<li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+			        <li><a href="personal.html"><i class="material-icons left">person</i>Personal</a></li>
+			        <li><a href="resume.html"><i class="material-icons left">business</i>Resume</a></li>
+			        <li><a href="swot.html"><i class="material-icons left">person_outline</i>SWOT</a></li>
+			    </ul>
+			    <ul class="side-nav" id="mobile-demo">
+			    	<li><a href="index.html">Home</a></li>
+			        <li><a href="personal.html">Personal</a></li>
+			        <li><a href="resume.html">Resume</a></li>
+			        <li><a href="swot.html">SWOT</a></li>
+			     </ul>
+		    </div>
+		</nav>
+	</header>
+
+<!--Cabecera-->
+    <div class="row">
+        <div class="col s12 center">
+            <div class="card-content black-text">
+              <span class="card-title"><h4>Smart Cities</h4></span>
+            </div>
+        </div>
+    </div>
+
+<!--uso de cards-->
+    <div class="row">
+        <div class="col s8 m6">
+          	<div class="card">
+	            <div class="card-image">
+	            	<img src="images/smartCity.jpg">
+	              	<span class="card-title">Smart City</span>
+	            </div>
+          	</div>
+        </div>
+        <div class="col s4">
+        	<div class="card-content ">
+        		<p>
+        			The first question is what is meant by a ‘smart city’. The answer is, there is no
+					universally accepted definition of a smart city. It means different things to different
+					people. The conceptualisation of Smart City, therefore, varies from city to city and
+					country to country, depending on the level of development, willingness to change and
+					reform, resources and aspirations of the city residents. A smart city would have a
+					different connotation in India than, say, Europe. Even in India, there is no one way of
+					defining a smart city.
+        		</p>
+        	</div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+    	<div class="col s12">
+    		Some definitional boundaries are required to guide cities in the Mission. In the
+			imagination of any city dweller in India, the picture of a smart city contains a wish list of
+			infrastructure and services that describes his or her level of aspiration. To provide for
+			the aspirations and needs of the citizens, urban planners ideally aim at developing the
+			entire urban eco-system, which is represented by the four pillars of comprehensive
+			development-institutional, physical, social and economic infrastructure. This can be a
+			long term goal and cities can work towards developing such comprehensive
+			infrastructure incrementally, adding on layers of ‘smartness’		
+			<br>
+			<br>
+    		In the approach of the Smart Cities Mission, the objective is to promote cities that
+			provide core infrastructure and give a decent quality of life to its citizens, a clean and
+			sustainable environment and application of ‘Smart’ Solutions. The focus is on
+			sustainable and inclusive development and the idea is to look at compact areas, create
+			a replicable model which will act like a light house to other aspiring cities. The
+			Smart Cities Mission of the Government is a bold, new initiative. It is meant to set
+			examples that can be replicated both within and outside the Smart City, catalysing the
+			creation of similar Smart Cities in various regions and parts of the country.
+    	</div>    	
+    </div>
+
+	<footer class="page-footer light-blue">
+        <div class="footer-copyright">
+           	<div class="container">
+            	© 2018 Copyright 
+            </div>
+        </div>
+    </footer>
+
+
+<!------------------------>
+	<script src="js/jQuery.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".button-collapse").sideNav();
+		});
+	</script>
+
+</body>
+</html>
